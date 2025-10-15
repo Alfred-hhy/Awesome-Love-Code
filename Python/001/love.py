@@ -108,7 +108,7 @@ def main():
 					mouse_pos[1] < unlike_y_pos+unlike_pos_height+5 and mouse_pos[1] > unlike_y_pos-5:
 					continue
 				break
-		title('小姐姐，我观察你很久了', screen, scale=[2, 10])
+                title('小姐姐，我喜欢你很久了', screen, scale=[2, 10])
 		title('做我女朋友好不好呀? *^_^*', screen, scale=[2, 6])
 		button('好呀', like_x_pos, like_y_pos, like_pos_width, like_pos_height, button_color, screen, 20)
 		button('算了吧', unlike_x_pos, unlike_y_pos, unlike_pos_width/2, unlike_pos_height/2, button_color, screen, 10)
